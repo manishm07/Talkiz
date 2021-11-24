@@ -1,0 +1,42 @@
+
+/*......................................*/
+/* .container{
+    max-height: 100%;
+    max-width: 100%;
+    background: linear-gradient(to right top, #77f0da, #6cdbeb);
+
+} */
+.accodionManaual{
+    width: 75%;
+    margin-left: 163px;
+    margin-top: 30px;
+    background: linear-gradient(to right top, #77f0da, #6cdbeb);
+
+}
+.customButton{
+    max-height: max-content;
+    min-width: 200px;
+   float:right;
+    background-color: #1877f2;
+}
+.Blockdiv{
+    display: flex;
+    flex-direction: row;
+}
+.blockContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.lockContainer button{
+    max-height: max-content;
+    min-width: 200px;
+   float:right;
+    background-color: #1877f2;
+}
+.blockImg{
+    margin-top: 10px;
+margin-left: 20px;
+font-weight: bold;
+font-size: 20px;
+}

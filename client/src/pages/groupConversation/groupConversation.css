@@ -1,0 +1,139 @@
+.messenger {
+    height: calc(100vh - 70px);
+    display: flex;
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+  }
+  
+  .chatMenu {
+    flex: 3.5;
+  }
+  .chatMenuWrapper {
+    padding: 10px;
+    height: 60%;
+  }
+
+  .groupChat {
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+
+  .sidebarHr {
+    margin: 20px 0;
+  }
+  
+  .chatMenuInput {
+    width: 90%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid gray;
+  }
+  
+  .chatBox {
+    flex: 5.5;
+  }
+  
+  .chatBoxWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .chatBoxTop {
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 10px;
+  }
+  
+  .chatBoxBottom {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .chatMessageInput {
+    width: 80%;
+    height: 90px;
+    padding: 10px;
+  }
+  
+  .chatSubmitButton {
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+  }
+  
+  .chatOnline {
+    flex: 3;
+  }
+  
+  .chatBoxWrapper,
+  .chatOnlineWrapper {
+    padding: 10px;
+    height: 100px;
+  }
+  
+  .noConversationText {
+    position: absolute;
+    top: 10%;
+    font-size: 50px;
+    color: rgb(224, 220, 220);
+    cursor: default;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .chatMenu {
+      flex: 1;
+    }
+  
+    .chatMenuInput {
+      display: none;
+    }
+  
+    .chatBox{
+      flex: 10;
+    }
+  
+    .chatOnline{
+      flex: 1px;
+    }
+  }
+
+  .create-button button{
+    height: 30px;
+    width: max-content;
+    border-radius: 0.6 rem;
+    opacity: 0.8;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 20px;
+  }
+  .divBreaker{
+    display: flex;
+    flex-direction: row;
+  }
+  .divBreaker button{
+    margin-left: 10px;
+  }
+  .emoji-margin-left{
+    margin-right: 10px;
+  }
+  .shareOption:hover{
+    cursor: pointer;
+  }
+  .emoji-margin-left:hover{
+    cursor: pointer;
+  }

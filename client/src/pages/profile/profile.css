@@ -1,0 +1,104 @@
+.profile{
+    display: flex;
+    background: linear-gradient(to right top, #77f0da, #6cdbeb);
+
+}
+
+.profileRight{
+    flex: 9;
+}
+
+.profileCover{
+    height: 320px;
+}
+
+.profileCoverImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.profileUserImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 150px;
+    border: 3px solid white;
+}
+
+.profileInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileInfoName{
+    font-size: 24px;
+}
+
+.profileInfoDesc{
+    font-weight: 300;
+}
+
+.profileRightBottom{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+/*................user info div...............................*/
+
+.profileInfo button{
+    height: 20px;
+    width: fit-content;
+    border-radius: 0.6 rem;
+    opacity: 0.8;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+  text-align: center;
+  margin-top: 10px;
+  
+
+}
+
+.rightbarTitle{
+    margin-left: 400px;
+    font-size: 20px;
+}
+
+.select {
+    min-width: 30px;
+    height: 25px;
+    font-size: 16px;
+    outline: none;
+    font-family: "Times New Roman", Times, serif;
+}
+.rightbarInfoKey{
+    font-weight: 500;
+    color: #555;
+  }
+  .rightbarInfoItem{
+    margin-bottom: 20px;
+  }
+  .rightbarInfo input{
+      margin-left: 10px;
+  }
+  .rightbarInfo select{
+    margin-left: 10px;
+}
+  .editBtn{
+        height: 30px !important;
+        border-radius: 0.3rem;
+    }
+
+.buttons button{
+    height: max-content;
+    border-radius: 0.3rem;
+margin-right: 20px;
+}

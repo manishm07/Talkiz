@@ -1,0 +1,123 @@
+.rightContainer{
+    min-height: 100%;
+    flex: 9;
+    width: 100px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.Title{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.rightbarNotifications{
+    display: flex;
+    flex-direction: column;
+}
+
+.rightbarPic{
+    display: flex;
+}
+
+.rightbarImg{
+    width: 80px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.rightbarFriendName{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.divseparate{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.bottonmarg{
+    margin-bottom: 60px;
+}
+.btn{
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+}
+.rightTitleDiv{
+    width: max-content;
+}
+.rightTitle{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+.homeContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.profileLeft{
+   
+    width: 25%;
+    flex: 3;
+    height: 90vh;
+}
+
+  
+.search-container{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.profile-container{
+    height: max-content;
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.profile-container span{
+    margin-left: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.button-box{
+    height: 30px;
+    cursor: pointer;
+    width: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.err-div label{
+margin-left: 25px;
+margin-top: 20px;
+font-size: 30px;
+font-weight: bold;
+}
+
+.rightbarFollowing{
+display: flex;
+flex-wrap: wrap;
+}
+.rightbarFollowingImg{
+    width: 80px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.rightbarFollowingName{
+margin-top: 30px;
+}
+
